@@ -31,6 +31,11 @@ body{
     padding-top: 10%;
 }
 
+
+#inputvalue{
+    font-size: 150%;
+}
+
 .output{
     padding-top: 2%;
 }
@@ -69,8 +74,8 @@ footer{
 }
 
 @media only screen and (max-width:767px){
-    body{
-    }
+    /* body{
+    } */
     .center-div{
         /* margin: 0; */
         height: 90%;
