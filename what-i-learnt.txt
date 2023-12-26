@@ -1,0 +1,9 @@
+align-item:center
+
+its align the item vertically center,, while justify-content:center(display:flex) align it horizontalay center
+
+
+
+
+
+anthoer method to make div center is margin: auto which will make the div center horizontally and then apply margin-top to make it center vertically 
