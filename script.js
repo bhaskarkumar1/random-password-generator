@@ -69,3 +69,22 @@ function myFunction() {
     }
     h.value=k
   }
+
+
+//   copy to clipboard
+
+function copytoclip(){
+    console.log("Clip")
+    let inp=document.getElementById("inputvalue")
+    let inpvalue=inp.value
+
+
+      // Use the Clipboard API to copy the value to the clipboard
+      navigator.clipboard.writeText(inpvalue)
+        .then(() => {
+          console.log('Text successfully copied to clipboard');
+        })
+        .catch(err => {
+          console.error('Unable to copy text to clipboard', err);
+        });
+}

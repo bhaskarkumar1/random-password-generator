@@ -73,6 +73,15 @@ footer{
 
 }
 
+
+.clipboard{
+    color: hsl(160, 100%, 75%);
+    padding-left:1% ;
+    margin-left: -5%;
+    
+}
+
+
 @media only screen and (max-width:767px){
     /* body{
     } */
@@ -107,5 +116,11 @@ footer{
 
     .center-div{
         padding-left: 5%;
+    }
+
+    .clipboard{
+        font-size: 120%;
+        margin-left: -40px;
+        color: #19ab9a;
     }
 }
